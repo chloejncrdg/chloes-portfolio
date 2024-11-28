@@ -127,19 +127,23 @@ function Navbar() {
 
 function Footer() {
   return (
-    <div className="flex items-center justify-between px-8 py-4 bg-[#fefcf7] text-lg">
+    <div className="flex flex-col md:flex-row items-center justify-between px-8 py-4 bg-[#fefcf7] text-lg space-y-4 md:space-y-0">
       {/* Logo */}
       <Image
         src="assets/home/navbar_logo.png" // Replace with the actual path to your logo
         alt="Logo"
-        className="h-auto max-h-12 w-auto object-contain" // Ensures proper scaling and aspect ratio
+        className="h-auto max-h-12 w-auto object-contain"
       />
 
       {/* Copyright */}
-      <p>&#169; CHLOE JADYN CARANDANG, 2024</p>
+      <p className="text-center md:text-left">&#169; CHLOE JADYN CARANDANG, 2024</p>
 
       {/* CV Request */}
-      <Link href="mailto:carandangcn@students.national-u.edu.ph"><p className="cursor-pointer hover:underline">REQUEST CV</p></Link>
+      <Link href="mailto:carandangcn@students.national-u.edu.ph">
+        <p className="cursor-pointer hover:underline text-center md:text-left">
+          REQUEST CV
+        </p>
+      </Link>
     </div>
   );
 }

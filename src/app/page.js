@@ -75,7 +75,10 @@ export default function Home() {
       </div>
       <div className="h-full bg-[#fff8e7] flex flex-col items-center justify-center py-20">
         <p className="text-3xl md:text-7xl font-be-regular text-center text-[#393400]">
-          Interested in working together?
+          Interested in working
+        </p>
+        <p className="text-3xl md:text-7xl font-be-regular text-center text-[#393400]">
+          together?
         </p>
         <p className="text-base text-center w-full py-4 px-12 md:text-xl md:w-1/2 md:py-10 text-[#393400]">
           You can reach me through my LinkedIn or Email!
