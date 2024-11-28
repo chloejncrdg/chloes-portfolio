@@ -7,7 +7,6 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import masterList from '@/app/metadata/masterList.json';
 
-import { useState } from "react";
 import Image from "next/image";
 
 

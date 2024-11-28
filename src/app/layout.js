@@ -129,7 +129,7 @@ function Footer() {
   return (
     <div className="flex items-center justify-between px-8 py-4 bg-[#fefcf7] text-lg">
       {/* Logo */}
-      <img
+      <Image
         src="assets/home/navbar_logo.png" // Replace with the actual path to your logo
         alt="Logo"
         className="h-auto max-h-12 w-auto object-contain" // Ensures proper scaling and aspect ratio
