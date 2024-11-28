@@ -71,11 +71,23 @@ const Works = () => {
     <div className="w-full min-h-screen bg-[#fdf8eb]">
       <div className="bg-[#fdf8eb] flex flex-col items-center justify-center font-he-regular">
         <p className='pt-20 text-3xl'>WORKS</p>
-        <div className='pt-12 flex gap-12'>
-          <button onClick={() => setActiveTab('caseStudies')} className='text-lg border border-solid border-black px-3 rounded-full'>CASE STUDIES</button>
-          <button onClick={() => setActiveTab('development')} className='text-lg border border-solid border-black px-3 rounded-full'>DEVELOPMENT</button>
-          <button onClick={() => setActiveTab('visualArts')} className='text-lg border border-solid border-black px-3 rounded-full'>VISUAL ARTS</button>
-        </div>
+        <div className="pt-12 px-12 flex flex-wrap gap-4 md:gap-12 md:flex-nowrap justify-center">
+            <button 
+              onClick={() => setActiveTab('caseStudies')} 
+              className={`text-lg border border-solid border-[#393400] px-3 rounded-full ${activeTab === 'caseStudies' ? 'bg-[#393400] text-white' : ''} w-full md:w-auto`}>
+              CASE STUDIES
+            </button>
+            <button 
+              onClick={() => setActiveTab('development')} 
+              className={`text-lg border border-solid border-[#393400] px-3 rounded-full ${activeTab === 'development' ? 'bg-[#393400] text-white' : ''} w-full md:w-auto`}>
+              DEVELOPMENT
+            </button>
+            <button 
+              onClick={() => setActiveTab('visualArts')} 
+              className={`text-lg border border-solid border-[#393400] px-3 rounded-full ${activeTab === 'visualArts' ? 'bg-[#393400] text-white' : ''} w-full md:w-auto`}>
+              VISUAL ARTS
+            </button>
+          </div>
         <div className="flex flex-wrap md:p-10">
           {loading ? (
             <Loading />
