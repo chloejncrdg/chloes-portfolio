@@ -34,7 +34,7 @@ export default function Home() {
             />
           </div>
           <p className="text-3xl md:text-7xl md:w-[850px] font-be-regular text-center -mt-12 md:-mt-16 text-[#393400]">
-            "A problem well-stated is a problem half-solved."
+          &quot;A problem well-stated is a problem half-solved.&quot;
           </p>
         </div>
       </div>

@@ -12,10 +12,10 @@ const About = () => {
         <div>
           <h1 className="text-5xl font-be-regular mb-8 text-[#393400]">Meet Chloe</h1>
           <p className="text-[#393400] leading-relaxed">
-            Chloe Carandang is an aspiring product designer with a background in visual arts and web development. Currently a 4th-year student at National University-Manila, she’s pursuing a Bachelor of Science in Information Technology with a focus on Multimedia Arts and Animation. Chloe’s goal is to design and develop products that would help people feel seen and heard.
+            Chloe Carandang is an aspiring product designer with a background in visual arts and web development. Currently a 4th-year student at National University-Manila, she&apos;s pursuing a Bachelor of Science in Information Technology with a focus on Multimedia Arts and Animation. Chloe’s goal is to design and develop products that would help people feel seen and heard.
           </p>
           <p className="text-[#393400] leading-relaxed mt-4">
-            When she's not immersed in academics, she's probably drawing fishes or trying new pastry recipes to share with friends and family.
+            When she&apos;s not immersed in academics, she&apos;s probably drawing fishes or trying new pastry recipes to share with friends and family.
           </p>
           <p className="text-[#393400] leading-relaxed mt-4">
             Feel free to email her for her CV.
