@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #fefcf7;
+}
+
+p{
+  color: #393400;
+}
+
+
+
+@font-face {
+  font-family: "Bethany-Elingston-Regular";
+  src: url("/fonts/bethany-elingston-regular.otf");
+}
+
+@font-face {
+  font-family: "Bethany-Elingston-Italic";
+  src: url("/fonts/bethany-elingston-italic.otf");
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-Regular";
+  src: url("/fonts/helvetica-neue-roman.otf");
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-Medium";
+  src: url("/fonts/helvetica-neue-medium.otf");
+}
+@font-face {
+  font-family: "Helvetica-Neue-Bold";
+  src: url("/fonts/helvetica-neue-bold.otf");
+}
+
+@font-face {
+  font-family: "Helvetica-Neue-Thin";
+  src: url("/fonts/helvetica-neue-thin.otf");
+}

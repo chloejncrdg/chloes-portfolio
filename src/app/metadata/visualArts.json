@@ -1,0 +1,23 @@
+{
+    "artworks": {
+      "posters": [
+        "/assets/visual-arts/ugnay-poster.png",
+        "/assets/visual-arts/divergent-poster.png",
+        "/assets/visual-arts/artapp.jpg",
+        "/assets/visual-arts/infographic-1.png",
+        "/assets/visual-arts/infographic-2.jpg"
+        
+      ],
+      "personalArt": [
+        "/assets/visual-arts/santan.png",
+        "/assets/visual-arts/haruka.png",
+        "/assets/visual-arts/halleys_comet.png",
+        "/assets/visual-arts/heavypaint1.png",
+        "/assets/visual-arts/heavypaint2.png",
+        "/assets/visual-arts/satoru.png",
+        "/assets/visual-arts/fish.png",
+        "/assets/visual-arts/daifuku.png"
+      ]
+    }
+  }
+  

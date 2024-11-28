@@ -1,0 +1,29 @@
+{
+    "developmentProjects" : [
+        {
+            "id": 1,
+            "title" : "eNSAYO",
+            "date": "2024",
+            "subtitle": "A Web Platform with Interactive 3D Models and AR for Immersive Technical-Vocational Education and Training (TVET) Learning",
+            "summary": "eNSAYO is a web-based platform designed to enhance the TESDA Online Program by providing interactive supplementary learning materials. By integrating 3D technologies like augmented reality and immersive simulations, the platform transforms traditional learning experiences, ultimately boosting motivation and engagement for Technical and Vocational Education and Training (TVET) learners.",
+            "cover": "/assets/development-1/Cover-3.png",
+            "users": "TVET Students, TESDA Online Program Users",
+            "role": "Full-Stack Developer",
+            "thumbnail": "/assets/development-1/Thumbnail-3.png",
+            "images": [
+                "/assets/development-1/Title-1.png",
+                "/assets/development-1/Project_Context.png",
+                "/assets/development-1/TOP.png",
+                "/assets/development-1/Objective.png",
+                "/assets/development-1/Stack.png",
+                "/assets/development-1/Feature1.png",
+                "/assets/development-1/Feature2.png",
+                "/assets/development-1/Feature3.png",
+                "/assets/development-1/Feature4.png",
+                "/assets/development-1/Learnings-1.png"
+
+            ],
+            "tag": "development" 
+        }
+    ]
+}

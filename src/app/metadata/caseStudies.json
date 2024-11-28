@@ -1,0 +1,57 @@
+{
+    "caseStudies" : [
+        {
+            "id": 1,
+            "title" : "MCDELIVERY PH APP",
+            "date": "2024",
+            "subtitle": "Overcoming Delivery Challenges with Real-Time Solutions",
+            "summary": "Despite being one of the leading fast food chains in the Philippines, the McDelivery app has the lowest rating among its competitors. This case study explores the reasons behind this and proposes a solution based on the underlying issues.",
+            "cover": "/assets/case-study-1/Cover.png",
+            "users": "McDelivery PH Users",
+            "role": "Product Designer",
+            "thumbnail": "/assets/case-study-1/Thumbnail.png",
+            "images": [
+                "/assets/case-study-1/Title.png",
+                "/assets/case-study-1/Problem_Statement.png",
+                "/assets/case-study-1/Impact.png",
+                "/assets/case-study-1/Pain_Points.png",
+                "/assets/case-study-1/Current_Design.png",
+                "/assets/case-study-1/Redesign.png",
+                "/assets/case-study-1/Constraints.png",
+                "/assets/case-study-1/Summary.png",
+                "/assets/case-study-1/Learnings.png"
+            ],
+            "tag": "case-study" 
+        },
+        {
+            "id": 2,
+            "title" : "eNSAYO",
+            "date": "2024",
+            "subtitle": "eNSAYO Redesign: Balancing Functionality and Design",
+            "summary": "This landing page redesign was driven by the need to simplify my front-end development process. As a web developer and aspiring UX designer, the challenge was to find the balance between my front-end development skills and delivering a visually appealing, clean, and simple interface. A key constraint was the limited availability of assets from our client, and to avoid copyright issues, I had to work with the resources we had.",
+            "cover": "/assets/case-study-2/Cover-1.png",
+            "users": "TVET Students, TESDA Online Program Users",
+            "role": "UI Designer",
+            "thumbnail": "/assets/case-study-2/Thumbnail-1.png",
+            "images": [
+                "/assets/case-study-3/Home_eNSAYO.png"
+            ],
+            "tag": "case-study" 
+        },
+        {
+            "id": 3,
+            "title" : "BAA BAA THAI TEA",
+            "date": "2022",
+            "subtitle": "Baa Baa Thai Tea Website Redesign: Adding Personality and Playfulness to its Landing Page",
+            "summary": "As my first Figma project, I redesigned the landing page for Baa Baa Thai Tea, a milk tea brand I love. Wanting to bring more personality and playfulness to their online presence, I reimagined their website to better reflect the brand’s fun and lively character. This project was all about enjoying the process and getting hands-on with Figma.",
+            "cover": "/assets/case-study-3/Cover-2.png",
+            "users": "Baa Baa Thai Tea Website Visitors",
+            "role": "UI Designer",
+            "thumbnail": "/assets/case-study-3/Thumbnail-2.png",
+            "images": [
+                "/assets/case-study-2/Landing_Page.png"
+            ],
+            "tag": "case-study" 
+        }
+    ]
+}
