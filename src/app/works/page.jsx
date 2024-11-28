@@ -10,6 +10,7 @@ import artworksData from '@/app/metadata/visualArts.json'
 import { motion } from 'framer-motion'
 
 import Link from 'next/link'
+import Image from 'next/image'
 
 
 const Works = () => {
@@ -87,7 +88,7 @@ const Works = () => {
                       <motion.div initial={{ opacity: 0 }} animate={{ y: [50, 0, 0], opacity: 1 }} transition={{ duration:0.5, y: { duration: 1.2 } }}>
                         <Link href={`/case-studies/${caseStudy.id}`}>
                         <div className="relative aspect-w-16 aspect-h-9">
-                          <img
+                          <Image
                             src={caseStudy.thumbnail || 'placeholder-image-url.jpg'} // Replace with actual image URL or fallback
                             alt="Case Study Thumbnail"
                             className="w-full h-full object-cover rounded-lg border-2 border-gray-500"
@@ -118,7 +119,7 @@ const Works = () => {
                       <motion.div initial={{ opacity: 0 }} animate={{ y: [50, 0, 0], opacity: 1 }} transition={{ duration:0.5, y: { duration: 1.2 } }}>
                         <Link href={`/development/${project.id}`}>                        
                           <div className="relative aspect-w-16 aspect-h-9">
-                            <img
+                            <Image
                               src={project.thumbnail || 'placeholder-image-url.jpg'} // Replace with actual image URL or fallback
                               alt="Development Project Thumbnail"
                               className="w-full h-full object-cover rounded-lg border-2 border-gray-500"
@@ -149,7 +150,7 @@ const Works = () => {
                     {/* Render Posters */}
                     {artworks.posters && artworks.posters.length > 0 ? (
                       artworks.posters.map((image, index) => (
-                        <img
+                        <Image
                           key={index}
                           src={image}
                           alt={`Poster ${index + 1}`}
@@ -165,7 +166,7 @@ const Works = () => {
                     <h2 className="text-3xl font-be-regular text-gray-700 mb-4">Personal Art</h2>
                     {artworks.personalArt && artworks.personalArt.length > 0 ? (
                       artworks.personalArt.map((image, index) => (
-                        <img
+                        <Image
                           key={index}
                           src={image}
                           alt={`Personal Art ${index + 1}`}
@@ -187,7 +188,7 @@ const Works = () => {
         {isModalOpen && (
           <div className="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50">
             <div className="relative">
-              <img
+              <Image
                 src={modalImage}
                 alt="Modal Content"
                 className="max-w-full max-h-screen object-contain"

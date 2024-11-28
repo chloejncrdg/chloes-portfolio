@@ -7,6 +7,8 @@ config.autoAddCss = false // Prevent FontAwesome from adding its own CSS
 
 import Link from 'next/link'
 
+import Image from 'next/image'
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +22,7 @@ function Navbar() {
     <div className="flex items-center justify-between px-8 py-4 bg-[#fefcf7] shadow-sm">
       {/* Logo */}
       <Link href="/">
-        <img
+        <Image
           src="assets/home/navbar_logo.png" // Replace with the actual path to your logo
           alt="Logo"
           className="h-auto max-h-16 w-auto object-contain" // Dynamically adjusts size
@@ -57,7 +59,7 @@ function Footer() {
   return (
     <div className="flex items-center justify-between px-8 py-4 bg-[#fefcf7] text-lg">
       {/* Logo */}
-      <img
+      <Image
         src="assets/home/navbar_logo.png" // Replace with the actual path to your logo
         alt="Logo"
         className="h-auto max-h-12 w-auto object-contain" // Ensures proper scaling and aspect ratio

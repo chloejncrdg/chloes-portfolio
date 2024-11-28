@@ -1,7 +1,6 @@
 "use client"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
@@ -10,6 +9,8 @@ import masterList from '@/app/metadata/masterList.json';
 
 
 import { motion } from 'framer-motion'
+
+import Image from 'next/image'
 
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
       <div className="h-full flex items-center justify-center">
         <div className="flex flex-col p-14 md:px-72 py-24">
           <div className="w-full h-64 flex items-center justify-center font-he-regular">
-            <img
+            <Image
               src="/assets/home/logo.png" // Replace with your logo path
               alt="Logo"
               className="h-full object-contain" // Ensures the logo scales without distortion
@@ -50,7 +51,7 @@ export default function Home() {
               <motion.div initial={{ opacity: 0 }} animate={{ y: [50, 0, 0], opacity: 1 }} transition={{ duration:0.5, y: { duration: 1.2 } }}>
               <Link href={work.tag === 'case-study' ? `/case-studies/${work.id}` : `/development/${work.id}`}>
                 <div className="h-64 md:h-96 bg-gray-400 rounded-lg border-2 border-gray-500 cursor-pointer">
-                  <img src={work.thumbnail} alt={work.title} className="w-full h-full object-cover rounded-lg" />
+                  <Image src={work.thumbnail} alt={work.title} className="w-full h-full object-cover rounded-lg" />
                 </div>
               </Link>
               <div className="flex gap-1">

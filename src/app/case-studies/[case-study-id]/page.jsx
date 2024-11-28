@@ -5,6 +5,8 @@ import React, { useEffect, useRef, useState } from 'react'
 
 import caseStudiesData from '@/app/metadata/caseStudies.json'
 
+import Image from 'next/image'
+
 const CaseStudy = () => {
   let caseStudyId = useParams()
   caseStudyId = caseStudyId["case-study-id"]
@@ -47,7 +49,7 @@ const CaseStudy = () => {
         }`}
         style={{ aspectRatio: '16 / 9' }} // Default aspect ratio while loading
       >
-        <img
+        <Image
           ref={imgRef}
           src={data.cover || 'placeholder-image-url.jpg'} // Replace with your image URL or fallback
           alt="Case Study Cover"
@@ -83,7 +85,7 @@ const CaseStudy = () => {
       <div className="flex flex-col items-center justify-center mt-20 md:mt-24">
         <div className="mt-3 px-8 lg:px-48 md:px-28 w-full">
           {data.images.map((image, index) => (
-            <img
+            <Image
               key={index}
               className="bg-gray-400 object-contain w-full"
               src={image}

@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 
+import Image from 'next/image'
+
 const About = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#fcf4e2] px-6">
@@ -24,7 +26,7 @@ const About = () => {
 
         {/* Image Section */}
         <div className="flex justify-center">
-          <img
+          <Image
             src="/assets/about/me.png" // Replace this with the path to your image
             alt="Name"
             className="w-64 h-64 object-cover rounded-full shadow-md"
